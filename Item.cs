@@ -12,11 +12,12 @@ namespace Inventory
         public double costPrice { get; set; }
 
         public double quantity { get; set; }
-        //public Item(string name, float standard, float status)
+        //public Item(string pname, double sellingPrice, double costPrice )
         //{
-        //    this.pname = name;
-        //    this.sellingPrice = standard;
-        //    this.costPrice = status;
+        //    this.pname = pname;
+        //    this.sellingPrice = sellingPrice;
+        //    this.costPrice = costPrice;
+        //  //  this.quantity = quantity;
         //}
     }
 
