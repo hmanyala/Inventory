@@ -1,8 +1,1 @@
-[
-  {
-    "pname": "Book",
-    "sellingPrice": "25.67",
-    "costPrice": "28.78",
-    "quantity": "600"
-  }
-]
+[{"pname":"book","sellingPrice":34.56,"costPrice":37.89,"quantity":0.0},{"pname":"food","sellingPrice":34.67,"costPrice":67.54,"quantity":126.0},{"pname":"tab","sellingPrice":5.0,"costPrice":10.0,"quantity":0.0},{"pname":"groceries","sellingPrice":456.0,"costPrice":600.0,"quantity":0.0}]
