@@ -4,11 +4,7 @@ using System.Text;
 
 namespace Inventory
 {
-    public interface ICommand
-    {
-        void Execute();
-        bool IsCompleted { get; set; }
-    }
+   
 
    public class StockController
     {
@@ -16,8 +12,8 @@ namespace Inventory
 
         public void Invoke(ICommand cmd)
         {
-            Console.WriteLine("Invoking.......");
-            cmd.Execute();
+            Console.WriteLine("\nInvoking.......");
+            cmd.Process();
         }
 
 
